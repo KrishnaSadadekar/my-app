@@ -1,0 +1,34 @@
+/* Base styling */
+.dashboard {
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Blur effect when popup is visible */
+  .blurred {
+    filter: blur(5px);
+    pointer-events: none;
+  }
+  
+  /* Popup styling */
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+  }
+  
